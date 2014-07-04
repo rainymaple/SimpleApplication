@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="action_other">Other</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="activity2_text1">Please click me first</string>
+    <string name="action_showActivity2">Show Activity 2</string>
+    <string name="clickMeButton">Click Me!</string>
+    <string name="btn_Provide_Info">Provide Information</string>
+    <string name="title_activity_activity3">Activity3</string>
+    <string name="action_showActivity3">Show Activity 3</string>
+    <string name="title_activity_provide_info">ProvideInfo</string>
+    <string name="select_course">Select Course</string>
+    <string name="course1">Android Development</string>
+    <string name="course2">Get Started with AngularJS</string>
+    <string name="course3">ASP.NET MVC 5 with Web API 2</string>
+    <string name="input_your_name">Your Name</string>
+    <string name="input_your_email">Your Email</string>
+    <string name="btn_done">Done</string>
+
+</resources>
