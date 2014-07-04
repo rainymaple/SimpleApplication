@@ -17,7 +17,7 @@ import jgli.simpleapplication.R;
 public class Activity3 extends Activity {
 
     // add some keys here
-    static final int PROVIDE_INFO_REQUEST_CODE = 1000;
+    static final int PROVIDE_INFO_REQUEST_CODE = 20000;
 
     TextView mClassNameTextView;
     TextView mPersonNameTextView;
