@@ -10,10 +10,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import jgli.simpleapplication.R;
-
 public class Activity3 extends Activity {
 
     // add some keys here
@@ -30,7 +26,7 @@ public class Activity3 extends Activity {
         }
         return mClassNameTextView;
     }
-    public TextView getPersonnameTextView(){
+    public TextView getPersonNameTextView(){
         if(mPersonNameTextView == null){
             mPersonNameTextView = (TextView)findViewById(R.id.personNameTextView);
         }
@@ -84,7 +80,7 @@ public class Activity3 extends Activity {
             String emailName = resultIntent.getStringExtra(ProvideInfo.EMAIL_NAME);
 
             getCourseNameTextView().setText(courseName);
-            getPersonnameTextView().setText(personName);
+            getPersonNameTextView().setText(personName);
             getEmailNameTextView().setText(emailName);
         } else {
             Toast.makeText(this,"User Canceled",Toast.LENGTH_LONG).show();
